@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Luan Santana</title>
+    <meta charset="UTF-8">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logotitulo.ico">
+
+   
+   <style>
+        @font-face {
+            font-family: fontenome;
+            src: url(porter-sans-inline-block-webfont.ttf);
+        }
+
+        @font-face {
+            font-family: robotofino;
+            src: url(Roboto-Thin.ttf);
+        }
+
+        @font-face {
+            font-family: roboto;
+            src: url(Roboto-Regular.ttf);
+        }
+
+        body {
+            overflow-y: hidden;
+        }
+    </style>
+    
+</head>
+
+<body class="body-musica">
+    <header class="menu-principal">
+        <div class="header-1">
+            <ul class="links">
+                <li><a class="links-1" href="index.html">Inicio</a></li>
+                <li><a class="links-1" href="biografia.html">Biografia</a></li>
+                <li><a class="links-1" href="musica.html">Músicas</a></li>
+                <li><a class="links-1" href="contato.html">Contato</a></li>
+                <li><a class="logoluan" href="index.html"><img src="img/Frame logo.png"></a></li>
+            </ul>
+
+            <ul class="logos">
+                <li><a href="https://www.youtube.com/c/LuanSantana"><img src="img/youtube.png"></a></li>
+                <li><a
+                        href="https://www.deezer.com/br/artist/1264078?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=artist-1264078&deferredFl=1">
+                        <img src="img/deezer.png"></a></li>
+                <li><a href="https://open.spotify.com/artist/3qvcCP2J0fWi0m0uQDUf6r"><img src="img/spotify.png"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="div-musicas">
+        <h1 class="titulo-musicas">Músicas</h1>
+        <p class="subtitulo-msc">Veja aqui os principais álbuns
+            da carreira de Luan, os Hits e grandes colaborações:</p>
+
+        <div class="frames" id="frame-1">
+            <img class="foto-msc" id="foto-msc-1" src="img/luancity.png">
+            <p class="subtitulo-frames" id="sub-1">Erro Planejado ft.
+                Henrique e Juliano
+                (Ao Vivo)</p>
+            <a class="a-play" ><img class="img-botao-play" id="play-1" onclick="tocarMusica('./musicas/erroplanejado.mp3', '#play-1', '#pause-1')"src="img/play.png"></a>
+            
+
+            <a class="a-play" ><img id="pause-1" class="img-botao-play" onclick="pausarMusica('./musicas/erroplanejado.mp3', '#pause-1', '#play-1')" src="img/pause.png"></a>
+
+        </div>
+
+
+        <div class="frames" id="frame-2">
+            <img class="foto-msc-2" src="img/viva.jpg">
+            <p class="subtitulo-frames" id="sub-2">Quando A Bad Bater
+                - <br>(Ao Vivo)</p>
+            <a class="a-play"><img class="img-botao-play" id="play-2" src="img/play.png" onclick="tocarMusica('./musicas/bad.mp3', '#play-2', '#pause-2')"src="img/play.png"></a>
+           
+            <a class="a-play" ><img id="pause-2" class="img-botao-play"  onclick="pausarMusica('./musicas/bad.mp3', '#pause-2', '#play-2')" src="img/pause.png"></a>
+
+
+        </div>
+
+        <div class="frames" id="frame-3">
+            <img class="foto-msc-2" src="img/livemovel.jpg">
+            <p class="subtitulo-frames" id="sub-2">Sofázinho ft. Jorge e Mateus
+                - (Ao Vivo)</p>
+            <a class="a-play" ><img class="img-botao-play" id="play-3" src="img/play.png" onclick="tocarMusica('./musicas/sofazinho.mp3', '#play-3', '#pause-3')"></a>
+
+            <a class="a-play" ><img id="pause-3" class="img-botao-play"  onclick="pausarMusica('./musicas/sofazinho.mp3', '#pause-3', '#play-3')" src="img/pause.png"></a>
+
+        </div>
+
+        <div class="frames" id="frame-4">
+            <img class="foto-msc-2" id="foto-msc-3" src="img/aovivonorio.jpg">
+            <p class="subtitulo-frames" id="sub-2">Amar Não é Pecado
+                - (Ao Vivo)</p>
+            <a class="a-play"><img class="img-botao-play" id="play-4" src="img/play.png" onclick="tocarMusica('./musicas/amarNaoepecado.mp3', '#play-4', '#pause-4')"></a>
+            <a class="a-play" ><img id="pause-4" class="img-botao-play"  onclick="pausarMusica('./musicas/amarNaoepecado.mp3', '#pause-4', '#play-4')" src="img/pause.png"></a>
+
+        </div>
+
+        <div class="frames" id="frame-5">
+            <img class="foto-msc-2" id="foto-msc-3" src="img/onossotempo.jpg">
+            <p class="subtitulo-frames" id="sub-2">Tudo Que Você Quiser
+                - (Ao Vivo)</p>
+            <a class="a-play" ><img class="img-botao-play" id="play-5" src="img/play.png" onclick="tocarMusica('./musicas/tudoqvcquiser.mp3', '#play-5', '#pause-5')"></a>
+            <a class="a-play" ><img id="pause-5" class="img-botao-play"  onclick="pausarMusica('./musicas/tudoqvcquiser.mp3', '#pause-5', '#play-5')" src="img/pause.png"></a>
+
+        </div>
+
+        <div class="frames" id="frame-6">
+            <img class="foto-msc-2" id="foto-msc-3" src="img/acustico.jpg">
+            <p class="subtitulo-frames" id="sub-2">Chuva de Arroz
+                - (Ao Vivo)</p>
+                <a class="a-play"><img class="img-botao-play" id="play-6" src="img/play.png" onclick="tocarMusica('./musicas/chuvadearroz.mp3', '#play-6', '#pause-6')"></a>
+                <a class="a-play" ><img id="pause-6" class="img-botao-play"  onclick="pausarMusica('./musicas/chuvadearroz.mp3', '#pause-6', '#play-6')" src="img/pause.png"></a>
+            </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

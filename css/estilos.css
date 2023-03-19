@@ -1,0 +1,415 @@
+
+.body-index{
+    overflow: hidden;
+    height:100vh;
+    background:linear-gradient(180deg, #000000,#101414, #323c3c);
+}
+.menu-principal{    /*header*/
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    top:0;
+    left: 0;
+    background-color: black;
+}
+.links{
+    margin-top: 39px;
+    margin-left: 15%;
+    margin-bottom: 0;
+    margin-right: 0;
+    height: 0;
+    padding: 0;
+}
+.links .links-1:hover{
+font-weight: bolder;
+}
+
+
+.logos{
+    margin-top: 0;
+    margin-left: 70%;
+}
+
+.logos li{
+    margin-right: 10px;
+}
+div .logoluan{
+    margin: 0;
+    position: absolute;
+    left:50%;
+    top:36px;
+    color:rgb(255, 255, 255);
+}
+ul li{
+    font-family: robotofino;
+    display: inline;
+    margin-left: 0; 
+    margin-right: 35px; 
+    font-style:normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*conteudo index*/
+.nome{
+    font-family: fontenome;
+    margin-top: 208px;
+    margin-left: 175px;
+    font-size: 54px;
+    line-height: 57px;
+    font-weight: 400;
+    width: 685px;
+    margin-bottom: 17px;
+    background-image:linear-gradient(to bottom, #e12424, #f5521f, #FF9800);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+} 
+.subtitulo{
+    font-family: roboto;
+    margin-top: 0;
+    margin-left: 175px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 45px;
+    color: white;
+}
+.comecar{
+    top:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;    
+    padding-top: 15px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: black;
+    width: 200px;
+    height: 49px;
+    color: white;
+    margin-left: 175px;
+    font-family: roboto;
+    font-size: 19px;
+   
+}
+.comecar:hover{
+    opacity: 0.6;
+}
+
+.faixa{
+    background-color: black;
+    height: 100px;
+    width: 1366px;
+    left: 0;
+    position: absolute;
+    top: 560px;
+    transform:skew(-3deg) rotate(-3deg);
+}
+.foto-1{
+position: absolute;
+width: 583px;
+height: 550px;
+left: 740px;
+top: 120px
+}
+
+/*biografia////////////*/
+.body-bio{
+    
+    overflow-x:hidden;
+
+    justify-content:center;
+
+    width:100vw;
+    
+    height: 1660px;
+ 
+    background:linear-gradient(180deg, #000000,#444a4a, #586060);
+}
+#menubio{
+    background: transparent;
+}
+
+.biotitulo{
+    position: absolute;
+    font-style: normal;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 150px;
+    line-height: 40px;
+    letter-spacing: 1.21em;
+    left: 330px;
+    color:white;
+    
+}
+.biografia p{
+    position: absolute;
+    width: 736px;
+    height: 1400px;
+    left: 330px;
+    top: 250px;
+    font-family: 'Roboto';
+    font-style:normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #e6e6e6;
+    opacity: 1;
+    mix-blend-mode: normal;
+}
+.fotobio-1 img{
+    position: absolute;
+    width: 233px;
+    height: 282px;
+    left:163px;
+    top: 374px;
+    border-radius: 40px;
+    transform: rotate(-11deg);
+    opacity: 0.78;
+    
+}
+.fotobio-2 img{
+    position: absolute;
+    width: 300px;
+    height: 300pxpx;
+    left: 997px;
+    top: 730px;
+    border-radius: 40px;
+    transform: rotate(10deg);
+    opacity: 0.8;
+}
+.fotobio-3 img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 111px;
+    top: 1142px;
+    border-radius: 40px;
+    transform: rotate(-9deg);
+    opacity: 0.78;
+}
+
+/*pagina de contato/////////*/
+.body-contato{
+    overflow: hidden;
+    height:100vh;
+    background:linear-gradient(180deg, #000000,#101414, #323c3c);
+}
+.frame-contato{
+    background-color:white;
+    position: absolute;
+    width: 753px;
+    height: 541px;
+    left: 22%;
+    top: 95px;
+    border-radius: 19px;
+}
+.fotocontato{
+position: absolute;
+width: 377px;
+height: 541px;
+left: 0;
+top: 0;
+border-radius: 19px 0px 0px 19px;
+}
+/*formulario contato*/
+.titulo-cont{
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #020202;
+}
+
+.div-formulario{
+    font-family: roboto;
+    font-size: 17px;
+    margin-top:150px;
+    margin-left:425px;
+    width: 20px;
+}
+input{
+    padding:5px;
+    width:250px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    border:none;
+    background-color:#dbdbdb;
+}
+textarea{
+    font-family: roboto;
+    padding-bottom: 60px;
+    width: 255px;
+    border-radius: 5px;
+    border:none;
+    background-color:#dbdbdb;
+}
+.botao-enviar{
+    margin-top: 5px;
+    width: 264px;
+    font-family: roboto;
+    font-size: 20px;
+    background-color:black;
+    color:white;
+    border-radius:20px; 
+    padding-bottom: 7px;    
+    padding-top: 7px;
+    border:black;
+}
+.botao-enviar:hover{
+    opacity:0.8
+}
+
+
+
+
+/*pagina musicas/////////////////////*/
+.body-musica{
+    overflow: visible;
+    overflow-x: hidden;
+    width:100vw;
+    
+    height: 1180px;
+ 
+    background:linear-gradient(180deg, #000000,#030303, #393c3c);
+
+}
+.titulo-musicas{
+    position: absolute;
+    font-family: fontenome;
+    font-size: 52px;
+    margin-top:160px;
+    margin-left: 35%;
+    text-align: center;
+    width: 420px;
+    height: 70px;
+     background-image:linear-gradient(to bottom, #e12424, #f5521f, #FF9800);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.subtitulo-msc{
+    position: absolute;
+width: 675px;
+height: 70px;
+left: 25%;
+top: 275px;
+margin-top: 0;
+font-family: roboto;
+font-size: 25px;
+line-height: 29px;
+font-weight: 400;
+color: #AEAEAE;
+}
+.frames{
+    padding-top: 35px;
+    padding-left: 35px;
+    border-radius: 21px;
+    background: linear-gradient(180deg, #112031 13.47%, #152D35 37.59%, #345B63 64.12%, #D4ECDD 94.99%);
+    width: 222px;
+    height: 309px;
+    opacity: 0.7;
+}
+.frames:hover{
+    opacity: 1;
+}
+.subtitulo-frames{
+    position: absolute;
+    font-family: roboto;
+    width: 210px;
+    height: 57px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    left: 24px;
+    top:217px;
+
+}
+.img-botao-play{
+    position: absolute;
+    left: 100px;
+    top: 278px;
+    width: 55px;
+    height: 55px;
+
+}
+#pause-1, #pause-2, #pause-3, #pause-4, #pause-5, #pause-6{
+    display: none;
+}
+#frame-1{
+    position: absolute;
+   
+    height: 309px;
+    left: 220px;
+    top: 400px;
+    padding-top: 35px;
+    padding-left: 35px;
+    border-radius: 21px;
+    background: linear-gradient(180deg, #112031 13.47%, #152D35 37.59%, #345B63 64.12%, #D4ECDD 94.99%);
+}
+
+#frame-2{
+    position: absolute;
+   
+    height: 309px;
+    left: 528px;
+    top: 400px;
+    padding-top: 35px;
+    padding-left: 35px;
+    border-radius: 21px;
+    background: linear-gradient(180deg, #112031 13.47%, #152D35 37.59%, #345B63 64.12%, #D4ECDD 94.99%);
+}
+.foto-msc-2{
+    width: 182px;
+    height: 182px;
+    border-radius: 10px;
+    
+}
+
+
+#frame-3{
+    position: absolute;
+
+    height: 309px;
+    left: 836px;
+    top: 400px;
+    padding-top: 35px;
+    padding-left: 35px;
+    border-radius: 21px;
+    background: linear-gradient(180deg, #112031 13.47%, #152D35 37.59%, #345B63 64.12%, #D4ECDD 94.99%);
+
+}
+#frame-4{
+    position: absolute;
+    top: 800px;
+    padding-top: 35px;
+    padding-left: 35px;
+    border-radius: 21px;
+    background: linear-gradient(180deg, #112031 13.47%, #152D35 37.59%, #345B63 64.12%, #D4ECDD 94.99%);
+  
+    height: 309px;
+    left: 220px;
+}
+#frame-5{
+    position: absolute;
+    top: 800px;
+    left: 528px;
+
+}
+#frame-6{
+    position: absolute;
+    top: 800px;
+    left: 836px;
+}
